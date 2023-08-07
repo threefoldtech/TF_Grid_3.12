@@ -1,1 +1,8 @@
+docs/*
 docs
+docs/
+book/*
+book
+book/
+
+.vscode
