@@ -1,4 +1,4 @@
-## Personal Note
+<h1> Introduction </h1>
 
 ThreeFold Dubai and TFTech (our technology company) have put a lot of money and time into creating the technology and current version of the ThreeFold Grid. We are grateful for the support of the community, especially the farmers and, of course, our investors in TFTech who made it all possible.
 

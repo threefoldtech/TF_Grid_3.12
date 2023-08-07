@@ -1,4 +1,12 @@
-## DECENTRALIZATION: RE-SOLIDIFY THE DAO
+<h1> Decentralization: Re-Solidify the DAO </h1>
+
+<h2> Table of Contents </h2>
+
+- [Parameters](#parameters)
+- [DAO VOTES](#dao-votes)
+
+***
+## Parameters
 
 The parameters on-chain are all managed by the TFCHAIN DAO:
 
@@ -30,8 +38,8 @@ The parameters on-chain are all managed by the TFCHAIN DAO:
 * TFT generation protection
   * Define TFT vs Milligram of Gold Price
   * Maximum minting of TFT per CU/SU per day is defined in relation to the milligram of gold price, initially this will be 0.0689 USD per milligram (As of the date: 02/08/23, 13:20:01 BST, [Source](https://www.gold.org/goldhub/data/gold-prices)) .This is a special parameter and it can only be changed with +90% voted, and the vote will need a one month voting period minimum. This ensures that the quantity of TFT produced is healthy for the tokenomics.
-
-DAO VOTES
+***
+## DAO VOTES
 
 * Change of any of the parameters as defined above.
 * Acceptance of suggested grants to selected development or promotion projects as defined on platforms like Gitcoin.

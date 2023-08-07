@@ -1,4 +1,4 @@
-## DECENTRALIZED DEVELOPMENT & PROMOTION
+<h1> Decentralized Development & Promotion </h1>
 
 Towards TFGrid 4.0, the development and promotion of the TFGrid will happen in a fully decentralized way. Our aim is to use a platform like Gitcoin (or some alternative).
 
