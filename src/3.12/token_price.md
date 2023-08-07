@@ -1,4 +1,18 @@
-## Stabilization of our Token Price
+<h1> Token Price </h1>
+
+<h2> Table of Contents </h2>
+
+- [Introduction](#introduction)
+- [Current Situation](#current-situation)
+- [What Will Change](#what-will-change)
+
+***
+
+## Introduction
+
+TFGrid 3.12 aims at stabilizing the token price.
+***
+## Current Situation
 
 The token price should be the reflection of our traction of the grid, which isn’t the case today because of the following:
 
@@ -7,6 +21,10 @@ The token price should be the reflection of our traction of the grid, which isn�
 * There is no staking model, which doesn’t allow the community to express their support.
 * We don’t have enough promotion & communication budget yet.
 * We don’t have enough commercial solution providers pushing utilization of the grid.
+
+***
+
+## What Will Change
 
 What is happening over the next months is important to resolve this:
 

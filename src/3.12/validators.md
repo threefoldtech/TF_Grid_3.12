@@ -1,6 +1,19 @@
-## ROLL OUT VALIDATOR AND STAKING STRATEGY
+<h1> Validators and Staking </h1>
+
+<h2> Table of Contents </h2>
+
+- [Introduction](#introduction)
+- [Basics of Staking](#basics-of-staking)
+- [Staking Principles](#staking-principles)
+- [Staking Rewards](#staking-rewards)
+
+***
+
+## Introduction
 
 We want to roll out and improve our validator and staking strategy.
+***
+## Basics of Staking
 
 Staking can happen on
 
@@ -11,8 +24,8 @@ Staking is important for the following reasons:
 
 * You show your support for a farmer or a guardian, because you give them your vote of confidence.
 * You show your support for the TFGrid by locking in value and receiving rewards for doing so.
-
-Principles
+***
+## Staking Principles
 
 * 9 to 33 validators are operated by ThreeFold Guardians. We call them Guardian Validators.
   * As block creators are elected based on staking, it is not possible to enforce a lower bound. These numbers (9 to 33) would need to be discussed and approved.
@@ -23,6 +36,10 @@ Principles
   * Potential slashing events:
     * Failure to participate promptly in minting.
     * Normal PoS slashing events.
+
+***
+
+## Staking Rewards
 
 The initial rewards for the staking tokens on a Guardian Validator are
 
