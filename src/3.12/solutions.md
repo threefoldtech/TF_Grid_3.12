@@ -1,4 +1,15 @@
-## MORE FLEXIBILITY FOR THE SOLUTION PROVIDERS
+<h1> Solution Providers </h1> 
+
+<h2> Table of Contents </h2>
+
+- [Introduction](#introduction)
+- [Solution Providers ThreeFold Endorsement Program](#solution-providers-threefold-endorsement-program)
+  - [What ThreeFold Won't Promote](#what-threefold-wont-promote)
+
+***
+## Introduction
+
+In TFGrid 3.12, we bring more flexibility to solution providers.
 
 In TFGrid 3.12, we remove the existing model and process for the solution providers. Solution providers on their own will be able to add extra fees to deployments or partner with farmers.
 
@@ -7,8 +18,8 @@ In brief, solution providers can buy capacity in bulk and even make deals with s
 The aim is to make the cost of purchasing capacity as cost effective as possible to allow the solution providers to define their own sales price of their solutions and have healthy margins.
 
 The solution providers who want to co-promote with ThreeFold (be endorsed by ThreeFold) will need to pass an approval process. See the next section for more information on this.
-
-### Solution Providers ThreeFold Endorsement Program
+***
+## Solution Providers ThreeFold Endorsement Program
 
 The solution providers who want to be endorsed by ThreeFold (listing on website, co-promotion, etc.) need to make sure that the following requirements are covered:
 
@@ -17,6 +28,10 @@ The solution providers who want to be endorsed by ThreeFold (listing on website,
 * They need to be very specific about if their technology is open source or not and what the licenses are.
 * They need to have a clear description of what their users can expect from a support perspective.
 * Their users need to understand that ThreeFold is not responsible for delivering support on the solutions from the solution provider. ThreeFold also cannot take any liability for any malfunctioning.
+
+***
+
+### What ThreeFold Won't Promote
 
 ThreeFold will not promote solutions which:
 

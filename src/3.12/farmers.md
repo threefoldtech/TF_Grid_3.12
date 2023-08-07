@@ -1,8 +1,9 @@
-<h1> More Power and Additional Rewards for Farmers </h1>
+<h1> Changes for Farmers </h1>
 
 <h2> Table of Contents </h2>
 
-- [Customing Pricing](#customing-pricing)
+- [Introduction](#introduction)
+- [Custom Pricing](#custom-pricing)
 - [More Income](#more-income)
 - [Help Solution Providers](#help-solution-providers)
 - [Farmers' Own Nodes Utilization](#farmers-own-nodes-utilization)
@@ -10,7 +11,13 @@
 
 ***
 
-## Customing Pricing
+## Introduction
+
+One of the main goal of TFGrid 3.12 is to give more power and additional rewards for Farmers. We cover this in the following section.
+
+***
+
+## Custom Pricing
 
 The idea is to allow a farmer to receive additional rewards for CU/SU. The rewards would be distributed as follows:
 
