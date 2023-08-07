@@ -1,5 +1,7 @@
 # TF_Grid_3.12
-Documentation of the TF Grid 3.12 release, including improved tokenomics and better defined governance. Please see the issues for ongoing discussions, or open a new one with your comments and suggestions.
+Documentation of the TF Grid 3.12 release, including improved tokenomics and better defined governance. Browse the rendered pages at [this link](https://threefoldtech.github.io/TF_Grid_3.12/).
+
+Please see the [issues](https://github.com/threefoldtech/TF_Grid_3.12/issues) for ongoing discussions, or open a new one with your comments and suggestions.
 
 ## Serve locally
 
