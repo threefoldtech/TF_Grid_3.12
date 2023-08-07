@@ -1,5 +1,5 @@
 # ThreeFold Grid 3.12 & 4.0
-Documentation of the TF Grid 3.12 and 4.0 releases, including improved tokenomics and better defined governance. Browse the rendered pages at [this link](https://threefoldtech.github.io/TF_Grid_3.12/).
+Documentation of the TF Grid 3.12 and 4.0 releases, including improved tokenomics and better defined governance. Browse the rendered pages at [this link](https://threefoldtech.github.io/TF_Grid_3.12_4.0/).
 
 Please see the issues for ongoing discussions, or open a new one with your comments and suggestions.
 
