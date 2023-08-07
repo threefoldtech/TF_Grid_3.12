@@ -2,7 +2,7 @@
 - [TFGrid 3.12](3.12/3.12.md)
     - [Introduction](3.12/intro.md)
     - [Overview](3.12/overview.md)
-    - [Impact on Token Price](3.12/token_price.md)
+    - [Token Price](3.12/token_price.md)
     - [Decentralized Development and Promotion](3.12/dev_promo.md)
     - [Validators and Staking](3.12/validators.md)
     - [Changes for Farmers](3.12/farmers.md)
