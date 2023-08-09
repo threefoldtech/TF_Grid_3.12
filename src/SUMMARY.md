@@ -11,6 +11,7 @@
     - [Solution Providers](3.12/solutions.md)
     - [DAO](3.12/dao.md)
     - [Guardians](3.12/guardians.md)
+    - [Referral Program](3.12/referral_program.md)
     - [Technical Details](3.12/technical.md)
     - [Conclusion](3.12/conclusion.md)
 
