@@ -33,6 +33,8 @@ While there is a consensus from the community on having a referral program, the 
 
 This document will evolve as we gather input from the community and find the best way to go forward.
 
+***
+
 ## Program Implementation
 
 ### Referral Rewards
