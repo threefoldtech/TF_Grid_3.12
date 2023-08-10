@@ -7,6 +7,7 @@
     - [Validators and Staking](3.12/validators.md)
     - [Changes for Farmers](3.12/farmers.md)
     - [Tokenomics](3.12/tokenomics.md)
+    - [Uptime and Farming](3.12/uptime_farming.md)
     - [Assets on TF Chain](3.12/assets.md)
     - [Solution Providers](3.12/solutions.md)
     - [DAO](3.12/dao.md)
