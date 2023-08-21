@@ -54,7 +54,7 @@ TFGrid 3.12 leads to more income for Farmers.
 
 We remove features which cause complications and confusion:
 
-* The solution provider & sales channel features will be removed. (More on this below.)
+* The solution provider & sales channel features will be removed.
 * The certified farmer concept is no longer needed, because farmers can define their own additional reward income. This includes gold certified farming.
   1. Farmers can advertise their uptimes on their website. Uptime is also available on the TF Dashboard. High uptime farms would be seen as more reliable (e.g. the 99.8% required previously for certified farms).
   2. To discuss: add a feature in the TF Dashboard for users to see different uptime levels (e.g. past month, past 3 months, past 12 months, since the start of the farm, etc.).
