@@ -118,7 +118,8 @@ In order to avoid self-referral fraud, we could implement the following in the T
 * there is a limit on referral rewards
    * e.g. 20$ worth of TFT maximum 
 * to become a referrer, you need to have a proven history of using the TF Grid
-   * users can become a referrer after they spent X amount of $ (or TFT) on the TF Grid
+   * Users can become a referrer after they spent X amount of $ (or TFT) on the TF Grid
+   * Only accounts of a certain age can refer
 
 ***
 
