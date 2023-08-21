@@ -32,6 +32,8 @@ The parameters on-chain are all managed by the TFCHAIN DAO:
   * Minimum voting period
   * Maximum voting period
 * Certified 3Nodes Vendors
+* Staking rewards and parameters
+* Referral program parameters and requirements
 * Decentralized Promotion and Development
   * Percentage of revenue going to TF Treasury, which is at 10% initially.
 * Software versions on TFGrid and TFChain
