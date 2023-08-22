@@ -11,8 +11,9 @@
   - [Farming](#farming-1)
   - [Utilization CU/SU](#utilization-cusu-1)
   - [Utilization Extras](#utilization-extras-1)
-- [Certified Nodes and Gold Farming](#certified-nodes-and-gold-farming)
+- [Gold Farming, Certified Vendors and Nodes](#gold-farming-certified-vendors-and-nodes)
   - [Certified Parameters](#certified-parameters)
+  - [Hardware and Availability Parameters](#hardware-and-availability-parameters)
   - [Certified Boot Loaders](#certified-boot-loaders)
 - [Proof-of-Capacity and Proof-of-Utilization Distinctions](#proof-of-capacity-and-proof-of-utilization-distinctions)
 
@@ -74,25 +75,30 @@ As can be defined by the farmers, this represents an extra source of income:
 * 10% goes to stakers on farms (for utilization of that farm).
 * 10% goes to the TF treasury.
 
-## Certified Nodes and Gold Farming
+## Gold Farming, Certified Vendors and Nodes
 
-We propose to keep the certified nodes and gold farming programs as they are currently for TFGrid 3.12 while we prepare the following.
+We propose to keep the certified vendors and nodes as well as gold farming programs as they are currently for TFGrid 3.12 while we prepare the following.
 
 In the future, the certified nodes and gold farming programs would be controlled by the DAO. The principle would be that the DAO votes for strict parameters to be eligible for either certified nodes farming and/or gold farming.
 
 The parameters would be as objective as possible and would be testable by benchmarks and metrics.
 
+A 3Node with all certified hardware parameters would be a complete certified hardware 3Nodes. They can be either built by DIY farmers, or bought by certified vendors. The certified vendors would be elected by the DAO and be able to distribute certified boot loaders. Certified vendors could sell 3Nodes with complete certified hardware or partial certified hardware: it would be up to them to decide which product they offer and this could diverse their service offer as well as propose different entry level certified 3Nodes for potential farmers.
+
+To get the status of a gold farm, it would thus be needed to have both certified hardware parameters (e.g. SSD, RAM, CPU, etc.) as well as certified availability parameters (e.g. uptime, bandwidth).
+
+
 ### Certified Parameters
 
 The following parameters could be tested periodically to ensure that farmers have eligible nodes or farms to get the certified nodes and/or gold farming certifications:
 
-* CPU speed
-* RAM speed
-* SSD speed
-* Total uptime
-  * per month
-  * per year
-* Total bandwidth
+* Hardware parameters
+  * CPU speed
+  * RAM speed
+  * SSD speed
+* Availability parameters
+  * Uptime
+  * Bandwidth
 
 For example, we already measure the total uptime per minting period. We could then build an interface, most certainly on the ThreeFold Dashboard, where users could see the total uptimes (based on different periods, e.g. per week, per month, per year, etc.), to see how the nodes have performed in the past.
 
@@ -103,6 +109,14 @@ When a node unlocks a given certified parameter, they would earn more TFT by a g
 The main advantage of this method is that it would be mainly automated once the DAO decides the different bonus factors for the different certified parameters. Farmers would have their 3Nodes checked and get additional rewards at the PoC stage if their 3Nodes perform well in given certified parameters categories.
 
 To implement these automated certified parameters testing, we need both the testing mechanism and the public interface to present those results to the users.
+
+### Hardware and Availability Parameters
+
+Considering hardware and availability parameters, there could be different levels. A simple example can be found in the [Uptime and Farming Rewards](../3.12/uptime_farming.md) page. Bandwidth could also have different levels and respective farming rewards.
+
+As discussed, regions where Internet bandwidth and/or electricity are scare or less optimal could be organized and parametrized by regional Internets. This would thus be develop at a later stage of the TFGrid, potentially in TFGrid 4.0.
+
+The parameters levels would be decided by the DAO.
 
 ### Certified Boot Loaders
 
