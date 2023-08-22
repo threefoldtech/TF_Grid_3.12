@@ -13,10 +13,8 @@
   - [Utilization Extras](#utilization-extras-1)
 - [Certified Nodes and Gold Farming](#certified-nodes-and-gold-farming)
   - [Certified Parameters](#certified-parameters)
-- [Certified Boot Loaders](#certified-boot-loaders)
-  - [Hardware Failures](#hardware-failures)
-    - [Hardware Failures Workarounds](#hardware-failures-workarounds)
-  - [Proof-of-Capacity and Proof-of-Utilization](#proof-of-capacity-and-proof-of-utilization)
+  - [Certified Boot Loaders](#certified-boot-loaders)
+- [Proof-of-Capacity and Proof-of-Utilization Distinctions](#proof-of-capacity-and-proof-of-utilization-distinctions)
 
 ***
 
@@ -106,7 +104,7 @@ The main advantage of this method is that it would be mainly automated once the 
 
 To implement these automated certified parameters testing, we need both the testing mechanism and the public interface to present those results to the users.
 
-## Certified Boot Loaders
+### Certified Boot Loaders
 
 Certified nodes would need certified boot loaders. This ensures that the Zero-OS running on the 3Node is the same as the Zero-OS on the ThreeFold Hub. The question is: who would offer such boot loaders?
 
@@ -116,21 +114,7 @@ Currently the fees are per farm. Ideally, we would have certified node on chain 
 
 This certified boot loader could be done with multi-signature threshold signing by the guardians. For example, a minimum of 10 guardians would be needed to certified a node (or a farm) enabling the farming to get a certified boot loader.
 
-### Hardware Failures
-
-The current situation already takes into account hardware failures and ways to incite farmers to avoid such situations. In the current scenario, if hardware fails while the 3Node has some workloads, the farmers lose the rewards for the whole month. This incite farmers to use high-quality hardware that will not fail during deployment. This is written in the minting code.
-
-#### Hardware Failures Workarounds
-
-There can be many ways to work around hardware failures depending on the situation. While all potential issues and situations are not yet covered and fixed, we can develop on the current situation.
-
-Currently, if the SSD of a 3Node fails, the user loses the data. Depending on the type of workload, a user could simply decide to deploy on another node. Users could also have backups available in order to avoid losing the data.
-
-Some workloads can be self-healing by design. For example, if a user runs a Jitsi instance and the 3Node fails, the user could simply redeploy on another 3Node and the workload would more or less be as effective. As another example, if a user deploys a Nextcoud instance and enabled a redundant backup on another 3Node, they could simply redeploy on functioning 3Node and transfer the data to this new 3Node.
-
-This type of thinking is to show that there are ways to circumvent or deal with hardware failures with deployments themselves.
-
-### Proof-of-Capacity and Proof-of-Utilization
+## Proof-of-Capacity and Proof-of-Utilization Distinctions
 
 As a general observation, proof-of-capacity (PoC) is related to the offer phase of the market, where farmers get rewarded simply by offering compute, storage and network units on the ThreeFold Grid, while proof-of-utilization (PoU) is related to the demand phase of the market, where farmers get rewarded when users use their 3Nodes to deploy workloads.
 
@@ -138,4 +122,4 @@ It can be noted that, in this case, PoC is a passive rewards system while PoU is
 
 Considering certified nodes and certified indivual parameters, farmers would get more TFT rewards at the PoC/offer phase by having bonus rewards for their certification without needing any workloads to be deployed on their 3Nodes. This is why we call this passive rewards.
 
-When farmers get utilization on their nodes, with the variable farming policy, they can ask more rewards if they think their 3Nodes parameters are worth more, in this case, the certified parameters.
+When farmers get utilization on their nodes, with the variable farming policy, they can ask more rewards if they think their 3Nodes parameters are worth more, in this case, the certified parameters. This is why we can this active rewards, as you get more rewards when there are active utilization on the grid.
