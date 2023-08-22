@@ -88,4 +88,3 @@ If the farmer doesn't stake the minimum TFT collateral amount for their 3Node, t
 As a concrete example, say a farmer has a 3Node with XYZ resources and this 3Node requires 10 000 TFT of collateral. The farmer can decide to stake 10 000 TFT as delegated staking to a validator. This 10 000 TFT acts as a collateral for their 3Node. This way, after each minting period, the farmer receives unlocked TFT rewards.
 
 If the farmer doesn't have any TFT or simply doesn't want to stake the 10 000 TFT as collateral, the TFT farming rewards they receive at each minting period would directly go to a delegated staking of a validator. The 3Node would then farm TFT at every minting period and when the 10 000 TFT are staked, any TFT minted after this point would be liquid and unlocked to the farmer.
-

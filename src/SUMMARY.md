@@ -1,5 +1,5 @@
 # ThreeFold Grid 3.12 Summary
-- [TFGrid 3.12](3.12/3.12.md)
+- [TFGrid 3.12](3.12.md)
     - [Introduction](3.12/intro.md)
     - [Overview](3.12/overview.md)
     - [Token Price](3.12/token_price.md)
