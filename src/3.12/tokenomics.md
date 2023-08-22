@@ -13,19 +13,19 @@
   - [Utilization Extras](#utilization-extras-1)
 - [Gold Farming, Certified Vendors and Nodes](#gold-farming-certified-vendors-and-nodes)
   - [Certified Parameters](#certified-parameters)
-  - [Hardware and Availability Parameters](#hardware-and-availability-parameters)
+    - [Hardware and Availability Parameters](#hardware-and-availability-parameters)
   - [Certified Boot Loaders](#certified-boot-loaders)
-- [Proof-of-Capacity and Proof-of-Utilization Distinctions](#proof-of-capacity-and-proof-of-utilization-distinctions)
+  - [Proof-of-Capacity and Proof-of-Utilization Distinctions](#proof-of-capacity-and-proof-of-utilization-distinctions)
 
 ***
 
-## Introduction
+# Introduction
 
 The TFGrid will be compatible with two tokenomics policies. The new tokenomics policy will be 100% backward compatible with the currently used farming reward model. This means that farmers would keep on earning the exact same amount of tokens if they choose not to upgrade to the variable model.
 ***
-## Fixed Farming Policy
+# Fixed Farming Policy
 
-### Farming
+## Farming
 
 * For all existing farms, the rewards are the same as today. We call this the Fixed Farming reward.
 * For every node in the farm, we calculate the amount of CU and SU.
@@ -34,28 +34,28 @@ The TFGrid will be compatible with two tokenomics policies. The new tokenomics p
 * The farming parameters get fetched from the chain. These parameters depend on the certification of the node (certified or not) and the certification of the farm (gold or regular), and are then used to calculate the total maximum payout for the period.
 * If the farm is a gold certified farm, the node gets tokens from minting if it has at least 99.80% uptime in the period. For non gold certified farms, the payout is scaled proportional to the node uptime percentage (e.g. 50% uptime -> 50% of the total payout).
 
-### Utilization CU/SU
+## Utilization CU/SU
 
 * 10% goes to the stakers on validators.
 * 40% goes to the TF treasury.
 * 50% goes to burning. This is more than in version 3.11 and it should largely compensate for minting.
 
-### Utilization Extras
+## Utilization Extras
 
 * Utilization extras will not be possible.
 ***
-## Variable Farming Policy (NEW)
+# Variable Farming Policy (NEW)
 
 Farms can decide to upgrade to Variable Policy, we highly recommend farmers do so.
 
-### Farming
+## Farming
 
 * New tokens (TFT or CHI for v4.0) are only the result of CU/SU farming.
 * Rewards are always variable in line to parameters as specified on TFChain.
 * Rewards are automatically staked on the 3Node.
 * There is a Farmer Staking lockup period of 1 year or 30% utilization, whichever comes first.
 
-### Utilization CU/SU
+## Utilization CU/SU
 
 * 20% goes to farmers for SU/CU utilization.
 * 10% goes to the stakers on validators.
@@ -63,7 +63,7 @@ Farms can decide to upgrade to Variable Policy, we highly recommend farmers do s
 * 10% goes to the TF treasury.
 * 50% goes to burning. This is more than in 3.11 and should largely compensate for minting.
 
-### Utilization Extras
+## Utilization Extras
 
 As can be defined by the farmers, this represents an extra source of income:
 
@@ -75,7 +75,7 @@ As can be defined by the farmers, this represents an extra source of income:
 * 10% goes to stakers on farms (for utilization of that farm).
 * 10% goes to the TF treasury.
 
-## Gold Farming, Certified Vendors and Nodes
+# Gold Farming, Certified Vendors and Nodes
 
 We propose to keep the certified vendors and nodes as well as gold farming programs as they are currently for TFGrid 3.12 while we prepare the following.
 
@@ -88,7 +88,7 @@ A 3Node with all certified hardware parameters would be a complete certified har
 To get the status of a gold farm, it would thus be needed to have both certified hardware parameters (e.g. SSD, RAM, CPU, etc.) as well as certified availability parameters (e.g. uptime, bandwidth).
 
 
-### Certified Parameters
+## Certified Parameters
 
 The following parameters could be tested periodically to ensure that farmers have eligible nodes or farms to get the certified nodes and/or gold farming certifications:
 
@@ -118,7 +118,7 @@ As discussed, regions where Internet bandwidth and/or electricity are scare or l
 
 The parameters levels would be decided by the DAO.
 
-### Certified Boot Loaders
+## Certified Boot Loaders
 
 Certified nodes would need certified boot loaders. This ensures that the Zero-OS running on the 3Node is the same as the Zero-OS on the ThreeFold Hub. The question is: who would offer such boot loaders?
 
