@@ -94,13 +94,13 @@ The following parameters could be tested periodically to ensure that farmers hav
   * per year
 * Total bandwidth
 
-For example, we already measure the total uptime per minting period. We could then build an interface, most certainly on the ThreeFold Dashboard, where users could see the total uptimes (based on different periods, e.g. per week, per monht, per year, etc.), to see how the nodes have performed in the past.
+For example, we already measure the total uptime per minting period. We could then build an interface, most certainly on the ThreeFold Dashboard, where users could see the total uptimes (based on different periods, e.g. per week, per month, per year, etc.), to see how the nodes have performed in the past.
 
-What we propose is that nodes could be certified for different parameters individually. This could be more resilient and versatile. As a simple example, say a user needs a node that has high uptime to keep their Telegram bot alive. In this case, this type of workload doesn't require lots of compute power nor high bandwidth. So the user could choose a node with certified uptime, which means very high availability. This would ensure an efficient workload for their specific needs.
+What we propose is that nodes could be certified individually for different parameters. This could be more versatile. As a simple example, say a user needs a node that has high uptime to keep their Telegram bot alive. In this case, this type of workload doesn't require lots of compute power nor high bandwidth. So the user could choose a node with certified uptime, which means very high availability. This would ensure an efficient workload for their specific needs.
 
-When a node unlocks a given certified parameter, they would earn more TFT by a given factor, chosen by the DAO. For example, having a certified high CPU speed would give 5% more TFT rewards at the proof-of-capacity stage. Those additional rewards based on given certified parameters would thus be decided by the DAO.
+When a node unlocks a given certified parameter, they would earn more TFT by a given factor, chosen by the DAO. For example, having a certified high CPU speed would give 5% more TFT rewards at the proof-of-capacity stage. Those additional rewards based on given certified parameters would be decided by the DAO.
 
-The main advantage of this method is that it would be mainly automated once the DAO decides the bonus factor. Farmers would have their 3Nodes checked and get additional rewards at PoC stage if their 3Nodes perform well in given certified parameters categories.
+The main advantage of this method is that it would be mainly automated once the DAO decides the different bonus factors for the different certified parameters. Farmers would have their 3Nodes checked and get additional rewards at the PoC stage if their 3Nodes perform well in given certified parameters categories.
 
 To implement these automated certified parameters testing, we need both the testing mechanism and the public interface to present those results to the users.
 
@@ -110,9 +110,9 @@ Certified nodes would need certified boot loaders. This ensures that the Zero-OS
 
 We propose that Guardians could distribute certified boot loaders to farmers. Two parts would be signed: (1) the secure boot keys that get loaded in the BIOS, and (2) the signed boot loader. We note that there would be one signed boot loader per farm.
 
-Currently the fees are per farm. Ideally, we would have certified node on chain and make those fees and certification per node. 
+Currently the fees are per farm. Ideally, we would have certified nodes on chain and make those fees and certification per node instead of per farm. This would give more versatility and resilience to the system.
 
-This certified boot loader could be done with multi-signature threshold signing by the guardians. For example, a minimum of 10 guardians would be needed to certified a node (or a farm) enabling the farming to get a certified boot loader.
+This certified boot loader could be done with multi-signature threshold signing by the guardians. For example, a minimum of 10 Guardians could be needed to certify a node (or a farm) enabling the farmer to get a certified boot loader.
 
 ## Proof-of-Capacity and Proof-of-Utilization Distinctions
 
@@ -122,4 +122,4 @@ It can be noted that, in this case, PoC is a passive rewards system while PoU is
 
 Considering certified nodes and certified indivual parameters, farmers would get more TFT rewards at the PoC/offer phase by having bonus rewards for their certification without needing any workloads to be deployed on their 3Nodes. This is why we call this passive rewards.
 
-When farmers get utilization on their nodes, with the variable farming policy, they can ask more rewards if they think their 3Nodes parameters are worth more, in this case, the certified parameters. This is why we can this active rewards, as you get more rewards when there are active utilization on the grid.
+When farmers get utilization on their nodes, with the variable farming policy, they can ask more rewards if they think their 3Nodes parameters are worth more. This is why we call this active rewards, as you get more rewards when there is active utilization on the grid.

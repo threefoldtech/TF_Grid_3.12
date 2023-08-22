@@ -7,7 +7,7 @@
 - [Staking Principles](#staking-principles)
 - [Staking Rewards](#staking-rewards)
 - [Simplified Staking Proposition](#simplified-staking-proposition)
-  - [Node Staking and TFT as Collateral](#node-staking-and-tft-as-collateral)
+- [Node Staking and TFT as Collateral](#node-staking-and-tft-as-collateral)
 
 ***
 
@@ -66,7 +66,7 @@ Furthermore, the weigth of a given DAO vote would be based on the current shares
 
 Since validators get revenues from utilization on the TFGrid, this overall staking model would give a great emphasis and importance on utilization. It would incite members of the whole ecosystem to increase grid utilization.
 
-### Node Staking and TFT as Collateral
+## Node Staking and TFT as Collateral
 
 When it comes to node staking, we propose the following model with two node staking options: having TFT as collateral and liquid farming rewards, or having locked TFT (non-liquid) until you achive the collateral amount. 
 

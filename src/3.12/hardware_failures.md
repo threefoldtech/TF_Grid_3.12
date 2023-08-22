@@ -8,6 +8,6 @@ There can be many ways to work around hardware failures depending on the situati
 
 Currently, if the SSD of a 3Node fails, the user loses the data. Depending on the type of workload, a user could simply decide to deploy on another node. Users could also have backups available in order to avoid losing the data.
 
-Some workloads can be self-healing by design. For example, if a user runs a Jitsi instance and the 3Node fails, the user could simply redeploy on another 3Node and the workload would more or less be as effective. As another example, if a user deploys a Nextcoud instance and enabled a redundant backup on another 3Node, they could simply redeploy on functioning 3Node and transfer the data to this new 3Node.
+Some workloads can be self-healing by design. For example, if a user runs a Jitsi instance and the 3Node fails, the user could simply redeploy on another 3Node and the workload would more or less be as effective. As another example, if a user deploys a Nextcoud instance and enabled a redundant backup on another 3Node, they could simply redeploy on a functioning 3Node and transfer the data to this new 3Node.
 
 This type of thinking is to show that there are ways to circumvent or deal with hardware failures with deployments themselves.
