@@ -2,6 +2,11 @@
 
 <h2> Table of Contents </h2>
 
+- [Introduction](#introduction)
+- [Basics of Staking](#basics-of-staking)
+- [Staking Principles](#staking-principles)
+- [Staking Rewards](#staking-rewards)
+- [Previous Validator Registrations](#previous-validator-registrations)
 - [Staking Propositions](#staking-propositions)
   - [Staking Proposition: Validator Staking Only](#staking-proposition-validator-staking-only)
     - [Validator Part](#validator-part)
@@ -11,11 +16,11 @@
 
 ***
 
-## Introduction
+# Introduction
 
 We want to roll out and improve our validator and staking strategy.
 ***
-## Basics of Staking
+# Basics of Staking
 
 Staking can happen on
 
@@ -27,7 +32,7 @@ Staking is important for the following reasons:
 * You show your support for a farmer or a guardian, because you give them your vote of confidence.
 * You show your support for the TFGrid by locking in value and receiving rewards for doing so.
 ***
-## Staking Principles
+# Staking Principles
 
 * 9 to 33 validators are operated by ThreeFold Guardians. We call them Guardian Validators.
   * As block creators are elected based on staking, it is not possible to enforce a lower bound. These numbers (9 to 33) would need to be discussed and approved.
@@ -41,7 +46,7 @@ Staking is important for the following reasons:
 
 ***
 
-## Staking Rewards
+# Staking Rewards
 
 The initial rewards for the staking tokens on a Guardian Validator are
 
@@ -56,7 +61,7 @@ This is only for the tokens that are staked, the farmer gets other rewards in re
 
 ***
 
-## Previous Validator Registrations
+# Previous Validator Registrations
 
 * L0 and L2 validators will be able to delegate their TFTs to the new staking model
   * 2 millions tft for L2
