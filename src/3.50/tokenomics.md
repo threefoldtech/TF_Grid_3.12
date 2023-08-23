@@ -79,7 +79,7 @@ As can be defined by the farmers, this represents an extra source of income:
 ***
 # Gold Farming, Certified Vendors and Nodes
 
-We propose to keep the certified vendors and nodes as they are currently for TFGrid 3.50 while we prepare the following. There would be no more certified farm or gold farming.
+We propose to keep the certified vendors and nodes as they are currently for TFGrid 3.50 while we prepare the following. There would be no more certified farm or gold farming. That being said, certified farm and gold farmers can stay on 3.11.
 
 Certified nodes would appear at the top of the list when users will want to deploy workloads. Those 3Nodes will be of higher quality and farmers can decide to charge extra TFT as a compensation.
 
