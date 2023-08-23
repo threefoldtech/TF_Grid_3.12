@@ -130,12 +130,4 @@ For simplicity for now, say we have 2000 nodes and we have 20 millions TFT to st
 
 ## Staking Proposition: Farm and Validator Altogether
 
-We could also 
-
-* what is the purpose of farm staking?
-  * propositions
-    * unlock additional revenue to the farmer
-      * if you don't stake
-        * this part goes to
-          * burning
-    * can vote
+We are open to suggestions when it comes to implement farm staking alongside with validator staking.
