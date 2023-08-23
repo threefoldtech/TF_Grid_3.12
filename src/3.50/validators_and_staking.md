@@ -122,7 +122,7 @@ For now, we have
 
 If we set a limit to 125 millions TFT staked, we would need 20 millions TFT staked from farming and nodes.
 
-We set that for each ratio of 8GB of RAM/1vcore/512 GB of SSD, you need X TFT staked.
+We set that for each ratio of 8GB of RAM/1vcore/100 GB of SSD, you need X TFT staked.
 
 This TFT staked goes to the validator staking pools. Farmers thus do delegated staking to validators and get in return part of the rewards and voting weight.
 
