@@ -13,7 +13,7 @@
 
 ## Introduction
 
-One of the main goal of TFGrid 3.12 is to give more power and additional rewards for Farmers. We cover this in the following section.
+One of the main goal of TFGrid 3.50 is to give more power and additional rewards for Farmers. We cover this in the following section.
 
 ***
 

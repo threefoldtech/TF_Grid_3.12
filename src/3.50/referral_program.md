@@ -71,7 +71,7 @@ We thus have 50% available for solution providers and sales channels.
 
 If the 50% isn't used for solution providers and sales channels, it goes to the Threefold [DAO](https://library.threefold.me/info/threefold#/threefold__dao) owned Community Grant Wallet.
 
-> Note: We need to adjust the future referral program with the new TFGrid 3.12 parameters
+> Note: We need to adjust the future referral program with the new TFGrid 3.50 parameters
 
 ***
 
@@ -87,7 +87,7 @@ If the 50% isn't used for solution providers and sales channels, it goes to the 
 
 ## The Basic Flow of the Referral Program
 
-This flow is based on the current PoU model. We would need to adjust it with the new parameters in TFGrid 3.12.
+This flow is based on the current PoU model. We would need to adjust it with the new parameters in TFGrid 3.50.
 
 * Someone uses the TF Grid and deploys a workload
 

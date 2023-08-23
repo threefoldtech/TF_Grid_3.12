@@ -6,6 +6,6 @@ By changing to full decentralization, the pace at which we can develop will be a
 
 A [Quadratic Funding](https://cointelegraph.com/explained/quadratic-funding-the-future-of-crowdfunding-explained) mechanism will be used to help fair distribution of funding. 10% of all TFGrid revenue goes in the TF Treasury. The TFChain DAO decides how to fund the development or promotion projects by using the TFChain Treasury funds.
 
-The budget granted to bring us to version 3.12 is contributed by ThreeFold Cloud and will be at least 70k USD.
+The budget granted to bring us to version 3.50 is contributed by ThreeFold Cloud and will be at least 70k USD.
 
 ThreeFold Cloud and TFTech will continue to be granters for promotion and development of features of the TFGrid. We expect that other parties will follow (we already know some). We are looking for a team who wants to manage and support this process and will be paid from this platform as well.

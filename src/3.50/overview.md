@@ -1,4 +1,4 @@
-<h1> TFGrid 3.12 Overview </h1>
+<h1> TFGrid 3.50 Overview </h1>
 
 <h2> Table of Contents </h2>
 
@@ -13,7 +13,7 @@
 
 ## Introduction
 
-The major goal of TFGrid 3.12 is to propose a major decentralization upgrade to ThreeFold.
+The major goal of TFGrid 3.50 is to propose a major decentralization upgrade to ThreeFold.
 
 ***
 
@@ -23,7 +23,7 @@ The major goal of TFGrid 3.12 is to propose a major decentralization upgrade to 
 ***
 ## More Income for Farmers
 
-TFGrid 3.12 leads to more income for Farmers.
+TFGrid 3.50 leads to more income for Farmers.
 
 * Those changes lead to a lot of extra income for farmers.
 * Farmers can add extra reward for CU/SU (per node).

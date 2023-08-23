@@ -1,6 +1,6 @@
 <h1> Farming Rewards Based on Uptime </h1>
 
-Here is a proposition for TFGrid 3.12 farming rewards based on uptime:
+Here is a proposition for TFGrid 3.50 farming rewards based on uptime:
 
 * Rewards based on uptime:
   * Below 95%

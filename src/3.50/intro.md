@@ -13,7 +13,7 @@ One of our lowlights was around a solution provider called Foldit. While we are 
 To resolve the issues mentioned above, we believe that the following path is in the best interest of the community:
 
 1. Keep on innovating (e.g. we add GPU support for AI) in version 3.11.
-2. Deliver our version 3.12, which will be all focussed on decentralization and simplification.
+2. Deliver our version 3.50, which will be all focussed on decentralization and simplification.
 3. Carry on our parallel work on version 4.0, which has great new features for stabilizing our token as well as ultimate scalability, flexibility and new opportunities for our community.
 4. Establish ThreeFold Cloud, which will all be focussed on commercialization for our TFGrid 4.0.
 5. Conclude on our fundraising for TFTech and the new ThreeFold Cloud.

@@ -10,7 +10,7 @@
 
 ## Zero-OS 4.0
 
-Zero-OS is our new version of Zero-OS for TFGrid 4.0 and TFGrid 3.12:
+Zero-OS is our new version of Zero-OS for TFGrid 4.0 and TFGrid 3.50:
 
 * Will be compatible with TFChain 3.x as well as TFChain 4.0 and 3Bot peer-to-peer mode, as we prepare Zero-OS 4.0 for TFGrid 4.0
 * Latest Jan 2024, but probably earlier, Zero-OS 4.0 will be upgraded on all Nodes.

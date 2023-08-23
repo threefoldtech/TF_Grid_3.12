@@ -10,7 +10,7 @@
 
 ## Introduction
 
-TFGrid 3.12 aims at stabilizing the token price.
+TFGrid 3.50 aims at stabilizing the token price.
 ***
 ## Current Situation
 

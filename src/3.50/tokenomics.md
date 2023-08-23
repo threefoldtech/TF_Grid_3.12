@@ -1,4 +1,4 @@
-<h1> Tokenomics 3.12 </h1> 
+<h1> Tokenomics 3.50 </h1> 
 
 <h2> Table of Contents </h2>
 
@@ -12,8 +12,10 @@
   - [Utilization CU/SU](#utilization-cusu-1)
   - [Utilization Extras](#utilization-extras-1)
 - [Gold Farming, Certified Vendors and Nodes](#gold-farming-certified-vendors-and-nodes)
-  - [Certified Parameters](#certified-parameters)
-    - [Hardware and Availability Parameters](#hardware-and-availability-parameters)
+- [3Nodes Parameters](#3nodes-parameters)
+  - [3Nodes Parameters: Users](#3nodes-parameters-users)
+  - [3Nodes Parameters: Farmers](#3nodes-parameters-farmers)
+  - [Validators Check Nodes parameters](#validators-check-nodes-parameters)
   - [Certified Boot Loaders](#certified-boot-loaders)
   - [Proof-of-Capacity and Proof-of-Utilization Distinctions](#proof-of-capacity-and-proof-of-utilization-distinctions)
 
@@ -74,23 +76,24 @@ As can be defined by the farmers, this represents an extra source of income:
 * 10% goes to stakers on validators.
 * 10% goes to stakers on farms (for utilization of that farm).
 * 10% goes to the TF treasury.
-
+***
 # Gold Farming, Certified Vendors and Nodes
 
-We propose to keep the certified vendors and nodes as well as gold farming programs as they are currently for TFGrid 3.12 while we prepare the following.
+We propose to keep the certified vendors and nodes as they are currently for TFGrid 3.50 while we prepare the following. There would be no more certified farm or gold farming.
 
-In the future, the certified nodes and gold farming programs would be controlled by the DAO. The principle would be that the DAO votes for strict parameters to be eligible for either certified nodes farming and/or gold farming.
+Certified nodes would appear at the top of the list when users will want to deploy workloads. Those 3Nodes will be of higher quality and farmers can decide to charge extra TFT as a compensation.
 
-The parameters would be as objective as possible and would be testable by benchmarks and metrics.
+***
 
-A 3Node with all certified hardware parameters would be a complete certified hardware 3Nodes. They can be either built by DIY farmers, or bought by certified vendors. The certified vendors would be elected by the DAO and be able to distribute certified boot loaders. Certified vendors could sell 3Nodes with complete certified hardware or partial certified hardware: it would be up to them to decide which product they offer and this could diverse their service offer as well as propose different entry level certified 3Nodes for potential farmers.
+# 3Nodes Parameters
 
-To get the status of a gold farm, it would thus be needed to have both certified hardware parameters (e.g. SSD, RAM, CPU, etc.) as well as certified availability parameters (e.g. uptime, bandwidth).
+## 3Nodes Parameters: Users
 
+Users could consult a ThreeFold interface and see 3Nodes' statistics based on given parameters. 
 
-## Certified Parameters
+Concerning the node selector, users could select certified node as a whole (overall high specs) or based on specific parameters (e.g. only high SSD speed).
 
-The following parameters could be tested periodically to ensure that farmers have eligible nodes or farms to get the certified nodes and/or gold farming certifications:
+The parameters could be the following:
 
 * Hardware parameters
   * CPU speed
@@ -102,27 +105,55 @@ The following parameters could be tested periodically to ensure that farmers hav
 
 For example, we already measure the total uptime per minting period. We could then build an interface, most certainly on the ThreeFold Dashboard, where users could see the total uptimes (based on different periods, e.g. per week, per month, per year, etc.), to see how the nodes have performed in the past.
 
-What we propose is that nodes could be certified individually for different parameters. This could be more versatile. As a simple example, say a user needs a node that has high uptime to keep their Telegram bot alive. In this case, this type of workload doesn't require lots of compute power nor high bandwidth. So the user could choose a node with certified uptime, which means very high availability. This would ensure an efficient workload for their specific needs.
+What we propose is that nodes could be judged individually for different parameters. This could be more versatile. As a simple example, say a user needs a node that has high uptime to keep their Telegram bot alive. In this case, this type of workload doesn't require lots of compute power nor high bandwidth. So the user could choose a node with certified uptime, which means very high availability. This would ensure an efficient workload for their specific needs.
 
-When a node unlocks a given certified parameter, they would earn more TFT by a given factor, chosen by the DAO. For example, having a certified high CPU speed would give 5% more TFT rewards at the proof-of-capacity stage. Those additional rewards based on given certified parameters would be decided by the DAO.
+Farmers themselves can choose the price they want to put for their 3Nodes based on the quality and resources they offer.
 
 The main advantage of this method is that it would be mainly automated once the DAO decides the different bonus factors for the different certified parameters. Farmers would have their 3Nodes checked and get additional rewards at the PoC stage if their 3Nodes perform well in given certified parameters categories.
 
-To implement these automated certified parameters testing, we need both the testing mechanism and the public interface to present those results to the users.
+To implement these automated parameters testing, we need both the testing mechanism and the public interface to present those results to the users. The validators would be in charge of the testing.
 
-### Hardware and Availability Parameters
+## 3Nodes Parameters: Farmers
 
-Considering hardware and availability parameters, there could be different levels. A simple example can be found in the [Uptime and Farming Rewards](../3.12/uptime_farming.md) page. Bandwidth could also have different levels and respective farming rewards.
+Depending on the situation, farmers could set specific prices for their 3Nodes' resources:
 
-As discussed, regions where Internet bandwidth and/or electricity are scare or less optimal could be organized and parametrized by regional Internets. This would thus be develop at a later stage of the TFGrid, potentially in TFGrid 4.0.
+* Different options for farmers when they set their 3Nodes:
+  * Default price
+    * Can have different default prices
+    * This would be by default when you deploy a 3Node on the grid
+  * Certified/high-quality pricing
+    * Default pricing of the grid
+      * This could be decided by the DAO
+      * This would allow for plug-n-play experience
+    * Default pricing of the certified vendor
+  * Custom
+    * Farmers define their own price
 
-The parameters levels would be decided by the DAO.
+As a general consideration, all hardware would farm the same PoC rewards. Farmers can ask for custom PoU rewards based on the quality of their 3Nodes.
+
+## Validators Check Nodes parameters
+
+The validators would run tests to check the 3Nodes's capacity and quality.
+
+* Validators would run tests
+  * Make different checks and benchmarks
+    * Correlate with each other
+      * For ssd speed, cpu speed, etc.
+  * Done by multiple parties
+  * Doesn't have to go in a blockchain
+    * To be define where we put it
+  * Users can ask the verifying/monitoring nodes
+  * Users can download the data
+    * Check the database, e.g. from the last 2 months
+  * First instance of benchmarking
+    * 3script
+    * 3bot can keep the same metrics
 
 ## Certified Boot Loaders
 
-Certified nodes would need certified boot loaders. This ensures that the Zero-OS running on the 3Node is the same as the Zero-OS on the ThreeFold Hub. The question is: who would offer such boot loaders?
+Certified nodes provided by certified vendors would need certified boot loaders. This ensures that the Zero-OS running on the 3Node is the same as the Zero-OS on the ThreeFold Hub. The question is: who would offer such boot loaders?
 
-We propose that Guardians could distribute certified boot loaders to farmers. Two parts would be signed: (1) the secure boot keys that get loaded in the BIOS, and (2) the signed boot loader. We note that there would be one signed boot loader per farm.
+We propose that Guardians could distribute certified boot loaders to farmers. Two parts would be signed: (1) the secure boot keys that get loaded in the BIOS, and (2) the signed boot loader. We note that there would be one signed boot loader per farm. Note that this would be implemented later on. For now, we would keep the current functioning where TF Tech consults the certified node vendors and provide the certified boot loaders.
 
 Currently the fees are per farm. Ideally, we would have certified nodes on chain and make those fees and certification per node instead of per farm. This would give more versatility and resilience to the system.
 

@@ -9,9 +9,9 @@
 ***
 ## Introduction
 
-In TFGrid 3.12, we bring more flexibility to solution providers.
+In TFGrid 3.50, we bring more flexibility to solution providers.
 
-In TFGrid 3.12, we remove the existing model and process for the solution providers. Solution providers on their own will be able to add extra fees to deployments or partner with farmers.
+In TFGrid 3.50, we remove the existing model and process for the solution providers. Solution providers on their own will be able to add extra fees to deployments or partner with farmers.
 
 In brief, solution providers can buy capacity in bulk and even make deals with selected farmers to get the best price possible. The amount of TFT staked on guardian validators or TF Farms provide additional discounts.
 

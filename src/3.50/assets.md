@@ -1,0 +1,3 @@
+<h1> Assets on TFChain (Future release) </h1>
+
+An amazing idea has been brought forward by Lee in [this TF Forum post](https://forum.threefold.io/t/tft-locked-value-during-deployment/3675/28), concerning assets on TFChain. While this assets on TFChain project would not be doable within a short timeframe (thus for TFGrid 3.50), we want to include it in this document as it goes in line with the philosophy elaborated in this document, namely improving the ThreeFold tokenomics and decentralization of the project.

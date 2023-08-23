@@ -23,7 +23,7 @@ The parameters on-chain are all managed by the TFCHAIN DAO:
 * Farming Lockup Parameters:
   * There is either a minimum utilization threshold in percentage or a minimum number of months before minting gets released:
     * Both are currently set to 0 for the fixed reward farmers.
-    * The parameters will be of one year or a minimum of 30% utilization for the new 3Nodes starting with version 3.12. This means that the tokens which are farmed are locked for one year unless they get a utilization threshold of 30% or more.
+    * The parameters will be of one year or a minimum of 30% utilization for the new 3Nodes starting with version 3.50. This means that the tokens which are farmed are locked for one year unless they get a utilization threshold of 30% or more.
     * The tokens that are farmed but not released count as being staked on the farm.
   * The cutoff date for fixed farming reward, for now, is on Dec 30, 2024.
     * Existing farmers will have the choice to opt in or not into the new variable rewards scheme. This means that no new nodes would be eligible for fixed rewards after this date.
