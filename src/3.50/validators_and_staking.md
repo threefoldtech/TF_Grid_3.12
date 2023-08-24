@@ -128,14 +128,20 @@ This TFT staked goes to the validator staking pools. Farmers thus do delegated s
 
 We show a simple example with 20 millions TFT and a typical server of 32 vcores, 256 GB of RAM and 4 TB of SSD.
 
-| Whole Network                  | Quantities | Typical Server (TS) | Quantities | TS Parameters             | Quantities |
-| ------------------------------ | ---------- | ------------------- | ---------- | ------------------------- | ---------- |
-| Total TFT to stake (sTFT)      | 20000000   | cru                 | 32         | TS TFT farmed/month       | 1912.5     |
-| cru                            | 62419      | mru                 | 256        | TS TFT to stake           | 12683.41   |
-| mru                            | 402100     | sru                 | 4000       | ROI with staking (months) | 6.63       |
-| sru                            | 9445009    | CU=min(cru,mru,sru) | 63.75      |                           |            |
-| fru = min(cru,mru/8,sru/100)   | 50262.5    | fru = CU/2          | 31.88      |                           |            |
-| Staking TFT per fru (sTFT/fru) | 397.91     |                     |            |                           |            |
+| Whole Network                  | Quantities | Typical Server (TS) | Quantities |
+| ------------------------------ | ---------- | ------------------- | ---------- |
+| Total TFT to stake (sTFT)      | 20000000   | cru                 | 32         |
+| cru                            | 62419      | mru                 | 256        |
+| mru                            | 402100     | sru                 | 4000       |
+| sru                            | 9445009    | CU=min(cru,mru,sru) | 63.75      |
+| fru = min(cru,mru/8,sru/100)   | 50262.5    | fru = CU/2          | 31.88      |
+| Staking TFT per fru (sTFT/fru) | 397.91     |                     |            |
+
+| TS Parameters             | Quantities |
+| ------------------------- | ---------- |
+| TS TFT farmed/month       | 1912.5     |
+| TS TFT to stake           | 12683.41   |
+| ROI with staking (months) | 6.63       |
 
 In this example, each farming unit (fru) would need around 398 TFT staked. If a farmer doesn't want to put staking as collateral, the TFT farmed is locked until it achieves the minimum staking as collateral amount.
 
