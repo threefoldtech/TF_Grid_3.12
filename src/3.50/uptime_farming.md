@@ -15,9 +15,9 @@ Here is a proposition for TFGrid 3.50 farming rewards based on uptime:
       * Certified as HA bandwidth node on the TF Dashboard 
       * The next months, you farm more TFT (factor 1.1)
 
-| Uptime Window (%) | Receive Rewards | Rewards Quantity     | Rewards factor | 3-Months Rewards Factor | 3-Months Mention |
-| ----------------- | --------------- | -------------------- | -------------- | ----------------------- | ---------------- |
-| 99.8 >            | Yes             | Full Period Rewards  | 1              | 1.1                     | HA Bandwidth     |
-| 98 >              | Yes             | Proportional Rewards | 1              |                         |                  |
-| 95 >              | Yes             | Proportional Rewards | 0.9            |                         |                  |
-| < 95              | No              | No rewards           | 0              |                         |
+| **Uptime Window (%)** | **Receive Rewards** | **Rewards Quantity** | **Rewards factor** | **3-Months Mention** |
+| --------------------- | ------------------- | -------------------- | ------------------ | -------------------- |
+| 99.8 >                | Yes                 | Full Period Rewards  | 1                  | HA Bandwidth         |
+| 98 >                  | Yes                 | Proportional Rewards | 1                  |                      |
+| 95 >                  | Yes                 | Proportional Rewards | 0.9                |                      |
+| < 95                  | No                  | No rewards           | 0                  |                      |
