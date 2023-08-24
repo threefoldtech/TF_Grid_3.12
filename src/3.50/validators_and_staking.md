@@ -11,7 +11,7 @@
   - [Staking Proposition: Validator Staking Only](#staking-proposition-validator-staking-only)
     - [Validator Part](#validator-part)
     - [Node Staking and TFT as Collateral](#node-staking-and-tft-as-collateral)
-  - [Staking Proposition: From the Ground Up](#staking-proposition-from-the-ground-up)
+  - [Staking Proposition: Node Staking](#staking-proposition-node-staking)
   - [Staking Proposition: Farm and Validator Altogether](#staking-proposition-farm-and-validator-altogether)
 
 ***
@@ -110,7 +110,7 @@ As a concrete example, say a farmer has a 3Node with XYZ resources and this 3Nod
 
 If the farmer doesn't have any TFT or simply doesn't want to stake the 10 000 TFT as collateral, the TFT farming rewards they receive at each minting period would directly go to a delegated staking of a validator. The 3Node would then farm TFT at every minting period and when the 10 000 TFT are staked, any TFT minted after this point would be liquid and unlocked to the farmer.
 
-## Staking Proposition: From the Ground Up
+## Staking Proposition: Node Staking
 
 We propose to have a maximum TFT quantity to be used as staking.
 
