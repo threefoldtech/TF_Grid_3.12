@@ -130,4 +130,4 @@ For simplicity for now, say we have 2000 nodes and we have 20 millions TFT to st
 
 ## Staking Proposition: Farm and Validator Altogether
 
-We are open to suggestions when it comes to implement farm staking alongside with validator staking.
+We are open to suggestions when it comes to implementing farm staking alongside with validator staking.
