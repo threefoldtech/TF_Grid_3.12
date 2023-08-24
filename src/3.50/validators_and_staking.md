@@ -122,11 +122,22 @@ For now, we have
 
 If we set a limit to 125 millions TFT staked, we would need 20 millions TFT staked from farming and nodes.
 
-We set that for each ratio of 8GB of RAM/1vcore/100 GB of SSD, you need X TFT staked.
+Let us call farming unit (fru) the mininum of the ratio 8GB of RAM/1 vcore/100 GB of SSD.
 
 This TFT staked goes to the validator staking pools. Farmers thus do delegated staking to validators and get in return part of the rewards and voting weight.
 
-For simplicity for now, say we have 2000 nodes and we have 20 millions TFT to stake with farming and nodes. Thus it means each 3Node would need to stake 1000 TFT. This would be their collateral. If a farmer doesn't want to put collateral, the TFT farmed is locked until it achieves the minimum collateral amount.
+We show a simple example with 20 millions TFT and a typical server of 32 vcores, 256 GB of RAM and 4 TB of SSD.
+
+| Whole Network                  | Quantities | Typical Server (TS) | Quantities | TS Parameters             | Quantities |
+| ------------------------------ | ---------- | ------------------- | ---------- | ------------------------- | ---------- |
+| Total TFT to stake (sTFT)      | 20000000   | cru                 | 32         | TS TFT farmed/month       | 1912.5     |
+| cru                            | 62419      | mru                 | 256        | TS TFT to stake           | 12683.41   |
+| mru                            | 402100     | sru                 | 4000       | ROI with staking (months) | 6.63       |
+| sru                            | 9445009    | CU=min(cru,mru,sru) | 63.75      |                           |            |
+| fru = min(cru,mru/8,sru/100)   | 50262.5    | fru = CU/2          | 31.88      |                           |            |
+| Staking TFT per fru (sTFT/fru) | 397.91     |                     |            |                           |            |
+
+In this example, each farming unit (fru) would need around 398 TFT staked. If a farmer doesn't want to put staking as collateral, the TFT farmed is locked until it achieves the minimum staking as collateral amount.
 
 ## Staking Proposition: Farm and Validator Altogether
 
