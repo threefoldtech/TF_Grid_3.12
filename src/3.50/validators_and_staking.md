@@ -137,6 +137,8 @@ We show a simple example with 20 millions TFT and a typical server of 32 vcores,
 | total fru (tfru) = min(cru,mru/8,sru/100) | 50262.5    | fru = CU/2          | 31.88      |
 | Staking TFT per fru (sTFT/tfru)           | 397.91     |                     |            |
 
+With the above example, the TFT to stake as collateral for the proposed typical server would be around 13 000 TFT. The ROI would be around 7 months:
+
 | TS Parameters             | Quantities |
 | ------------------------- | ---------- |
 | TS TFT farmed/month       | 1912.5     |
