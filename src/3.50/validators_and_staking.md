@@ -128,14 +128,14 @@ This TFT staked goes to the validator staking pools. Farmers thus do delegated s
 
 We show a simple example with 20 millions TFT and a typical server of 32 vcores, 256 GB of RAM and 4 TB of SSD.
 
-| Whole Network                  | Quantities | Typical Server (TS) | Quantities |
-| ------------------------------ | ---------- | ------------------- | ---------- |
-| Total TFT to stake (sTFT)      | 20000000   | cru                 | 32         |
-| cru                            | 62419      | mru                 | 256        |
-| mru                            | 402100     | sru                 | 4000       |
-| sru                            | 9445009    | CU=min(cru,mru,sru) | 63.75      |
-| fru = min(cru,mru/8,sru/100)   | 50262.5    | fru = CU/2          | 31.88      |
-| Staking TFT per fru (sTFT/fru) | 397.91     |                     |            |
+| Whole Network                             | Quantities | Typical Server (TS) | Quantities |
+| ----------------------------------------- | ---------- | ------------------- | ---------- |
+| Total TFT to stake (sTFT)                 | 20000000   | cru                 | 32         |
+| total cru                                 | 62419      | mru                 | 256        |
+| total mru                                 | 402100     | sru                 | 4000       |
+| total sru                                 | 9445009    | CU=min(cru,mru,sru) | 63.75      |
+| total fru (tfru) = min(cru,mru/8,sru/100) | 50262.5    | fru = CU/2          | 31.88      |
+| Staking TFT per fru (sTFT/tfru)           | 397.91     |                     |            |
 
 | TS Parameters             | Quantities |
 | ------------------------- | ---------- |
