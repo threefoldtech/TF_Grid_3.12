@@ -193,9 +193,10 @@ To efficiently and quickly discuss the node collateral program, we define some t
   * farming unit (fru) = min(cru,mru/8,sru/100)
 * Total TFT to stake (sTFT)
 * Total farming units on the grid (tfru)
-* Collateral ratio (CR) = sTFT / tfru
+* Collateral ratio (cr) = sTFT / tfru
 * Server farming unit (sfru) =  total farming units of one node
-* Minimum collateral amount (MCA) = CR * sfru
+* Minimum collateral amount (mca) = cr * sfru
+* Staking return on investment (sROI)
 
 ### Node Collateral Calculations
 
@@ -205,24 +206,24 @@ We show a simple example with 50 millions TFT and a typical server of 32 vcores,
 
 The collateral ratio is obtained by dividing the total TFT to stake by the total farming units on the grid currently.
 
-| **Whole Network**                                       | **Quantities** | **Typical Server (TS)**                    | **Quantities** |
-| ------------------------------------------------------- | -------------- | ------------------------------------------ | -------------- |
-| Total TFT to stake (sTFT)                               | 50000000       | cru                                        | 32             |
-| total cru                                               | 62419          | mru                                        | 256            |
-| total mru                                               | 402100         | sru                                        | 4000           |
-| total sru                                               | 9445009        |                                            |                |
-| total fru (tfru) = min(cru,mru/8,sru/100)               | 50262.5        | server fru (sfru) = min(cru,mru/8,sru/100) | 31.88          |
-| collateral ratio (CR = sTFT/tfru) | 994.78         | min collateral amount (MCA)                     | 31713.5864     |                   |            |
+| Whole Network                             | Quantities | Typical Server (TS)                        | Quantities |
+| ----------------------------------------- | ---------- | ------------------------------------------ | ---------- |
+| Total TFT to stake (sTFT)                 | 50000000   | cru                                        | 32         |
+| total cru                                 | 62419      | mru                                        | 256        |
+| total mru                                 | 402100     | sru                                        | 4000       |
+| total sru                                 | 9445009    |                                            |            |
+| total fru (tfru) = min(cru,mru/8,sru/100) | 50262.5    | server fru (sfru) = min(cru,mru/8,sru/100) | 32         |
+| collateral ratio (cr=sTFT/tfru)           | 994.8      | min collateral amount (mca)                | 31832.9    |
 
 In this example, each farming unit (fru) would need around 995 TFT staked. If a farmer doesn't want to put staking as collateral, the TFT farmed is locked until it achieves the minimum staking as collateral amount, or until the 3Node farms 2 years or until the 3Node has 30% utilization for a given period of time.
 
-| TS Parameters             | Quantities |
-| ------------------------- | ---------- |
-| TS monthly farming rewards (mfr)     | 1912.5     |
-| TS minimum collateral amount (CR*sfru)      | 31708.53   |
-| Staking ROI (SROI = MCA/mfr) | 16.58      |
+| TS Parameters                               | Quantities |
+| ------------------------------------------- | ---------- |
+| TS monthly farming rewards (mfr)            | 1912.5     |
+| TS minimum collateral amount (mca=cr\*sfru) | 31832.9    |
+| Staking ROI (sROI = mca/mfr)                | 16.6       |
 
-With the above example, the TFT to stake as collateral for the proposed typical server would be around 32,000 TFT. The staking return on investment (SROI) would be around 17 months. So for example, if the farmer doesn't provide collateral at the start, it will take 17 months to the 3Node to generate the minimum collateral amount.
+With the above example, the TFT to stake as collateral for the proposed typical server would be around 32,000 TFT. The staking return on investment (sROI) would be around 17 months. So for example, if the farmer doesn't provide collateral at the start, it will take 17 months to the 3Node to generate the minimum collateral amount.
 
 ## Rewards Distribution Examples
 
@@ -240,29 +241,29 @@ The first and second tables are with 200,000,000 TFT staked. For the first table
 
 | Validator staking and complete staking pool staking |            |
 | --------------------------------------------------- | ---------- |
-| Total TFT staked (stft)                                              | 200000000  |
-| Individual TFT staked (itft)                              | 2000000    |
+| Total TFT staked (stft)                             | 200000000  |
+| Individual TFT staked (itft)                        | 2000000    |
 | Grid monthly revenues (USD)                         | 8000       |
 | Grid monthly revenues (TFT)                         | 1230769.23 |
-| Monthly rewards (from the 2%)                                | 246.15     |
-| Monthly rewards (from the 16%)                               | 1969.23    |
+| Monthly rewards (from the 2%)                       | 246.15     |
+| Monthly rewards (from the 16%)                      | 1969.23    |
 | Total monthly rewards                               | 2215.38    |
 | Total yearly rewards                                | 26584.62   |
 | Staking yearly ROI                                  | 1.33       |
 
 For the second table, we use a monthly revenues of 16000$USD for the TFGrid.
 
-| Validator staking and complete staking pool staking |            |
-| --------------------------------------------------- | ---------- |
-| Total TFT staked (stft)                                               | 200000000  |
-| Individual TFT staked (itft)                               | 2000000    |
-| Grid monthly revenues (USD)                         | 16000      |
-| Grid monthly revenues (TFT)                         | 2461538.46 |
-| Monthly rewards (from the 2%)                                | 492.31     |
-| Monthly rewards (from the 16%)                               | 3938.46    |
-| Total monthly rewards                               | 4430.77    |
-| Total yearly rewards                                | 53169.23   |
-| Staking yearly ROI                                  | 2.66       |
+| Validator staking only         |            |
+| ------------------------------ | ---------- |
+| Total TFT staked (stft)        | 200000000  |
+| Individual TFT staked (itft)   | 2000000    |
+| Grid monthly revenues (USD)    | 16000      |
+| Grid monthly revenues (TFT)    | 2461538.46 |
+| Monthly rewards (from the 2%)  | 492.31     |
+| Monthly rewards (from the 16%) | 3938.46    |
+| Total monthly rewards          | 4430.77    |
+| Total yearly rewards           | 53169.23   |
+| Staking yearly ROI             | 2.66       |
 
 ### Validators with 100,000,000 TFT Staked in Total
 
@@ -270,31 +271,31 @@ The third and fourth tables are with 100,000,000 TFT staked. This would be the c
 
 For the third table, we use a monthly revenues of 8000$USD for the TFGrid.
 
-| Only Validator Staking      |            |
-| --------------------------- | ---------- |
-| Total TFT staked (stft)                        | 100000000  |
-| Individual TFT staked (itft)       | 2000000    |
-| Grid monthly revenues (USD) | 8000       |
-| Grid monthly revenues (TFT) | 1230769.23 |
-| Monthly rewards (from the 2%)        | 492.31     |
-| Monthly rewards (from the 16%)       | 3938.46    |
-| Total monthly rewards       | 4430.77    |
-| Total yearly rewards        | 53169.23   |
-| Staking yearly ROI          | 2.66       |
+| Validator staking and complete staking pool staking |            |
+| --------------------------------------------------- | ---------- |
+| Total TFT staked (stft)                             | 100000000  |
+| Individual TFT staked (itft)                        | 2000000    |
+| Grid monthly revenues (USD)                         | 8000       |
+| Grid monthly revenues (TFT)                         | 1230769.23 |
+| Monthly rewards (from the 2%)                       | 492.31     |
+| Monthly rewards (from the 16%)                      | 3938.46    |
+| Total monthly rewards                               | 4430.77    |
+| Total yearly rewards                                | 53169.23   |
+| Staking yearly ROI                                  | 2.66       |
 
 For the fourth table, we use a monthly revenues of 16000$USD for the TFGrid.
 
-| Only Validator Staking      |            |
-| --------------------------- | ---------- |
-| Total TFT staked (stft)                         | 100000000  |
-| Individual TFT staked (itft)       | 2000000    |
-| Grid monthly revenues (USD) | 16000      |
-| Grid monthly revenues (TFT) | 2461538.46 |
-| Monthly rewards (from the 2%)        | 984.62     |
-| Monthly rewards (from the 16%)       | 7876.92    |
-| Total monthly rewards       | 8861.54    |
-| Total yearly rewards        | 106338.46  |
-| Staking yearly ROI          | 5.32       |
+| Validator staking only         |            |
+| ------------------------------ | ---------- |
+| Total TFT staked (stft)        | 100000000  |
+| Individual TFT staked (itft)   | 2000000    |
+| Grid monthly revenues (USD)    | 16000      |
+| Grid monthly revenues (TFT)    | 2461538.46 |
+| Monthly rewards (from the 2%)  | 984.62     |
+| Monthly rewards (from the 16%) | 7876.92    |
+| Total monthly rewards          | 8861.54    |
+| Total yearly rewards           | 106338.46  |
+| Staking yearly ROI             | 5.32       |
 
 ## Questions and Feedback
 
