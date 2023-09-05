@@ -5,6 +5,7 @@
     - [Token Price](3.50/token_price.md)
     - [Decentralized Development and Promotion](3.50/dev_promo.md)
     - [Validators and Staking](3.50/validators_and_staking.md)
+    - [Staking Program](3.50/staking_program.md)
     - [Changes for Farmers](3.50/farmers.md)
     - [Tokenomics](3.50/tokenomics.md)
     - [Uptime and Farming](3.50/uptime_farming.md)
