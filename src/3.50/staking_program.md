@@ -14,6 +14,7 @@
 - [PoU Rewards Staking Program](#pou-rewards-staking-program)
 - [Rewards Distribution per Staker Types](#rewards-distribution-per-staker-types)
 - [Voting Power](#voting-power)
+- [Slashing](#slashing)
 - [Node Collateral Program: Concept and Examples](#node-collateral-program-concept-and-examples)
   - [Terminology](#terminology)
   - [Node Collateral Calculations](#node-collateral-calculations)
@@ -130,9 +131,13 @@ The staking pool consists of 100,000,000 TFT delegated to validator staking. The
 
 ## Rewards Distribution per Staker Types
 
-> Total stakers = farm operators + validator operators + non-operators stakers
+We first define some terms:
 
-> individual staked ratio = TFT staked per individual staker / TFT staked total  
+* Total stakers = farm operators + validator operators + non-operators stakers
+
+* individual staked ratio = TFT staked per individual staker / TFT staked total  
+
+We propose the following staking rewards distribution:
 
 * Rewards distribution per staker types
   * Validator operators
@@ -152,6 +157,9 @@ The staking pool consists of 100,000,000 TFT delegated to validator staking. The
 ## Voting Power
 
 * The three types of stakers (validators, farmers and delegators) get vote power on the TFChain DAO in relation to the weight of the amount of staked tokens.
+
+## Slashing
+
 * A form of punishment (e.g. validator-only slashing) will be implemented in the cases where the validators misbehaves. The incites validators to be constantly effective and will allow stakers to support trusted parties (e.g. validators with few or no failures)
   * Potential slashing events:
     * Failure to participate promptly in minting.
