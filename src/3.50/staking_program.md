@@ -206,7 +206,7 @@ The collateral ratio is obtained by dividing the total TFT to stake by the total
 | total mru                                               | 402100         | sru                                        | 4000           |
 | total sru                                               | 9445009        |                                            |                |
 | total fru (tfru) = min(cru,mru/8,sru/100)               | 50262.5        | server fru (sfru) = min(cru,mru/8,sru/100) | 31.88          |
-| collateral ratio (CR) (Staking TFT per fru (sTFT/tfru)) | 994.78         | min collateral amount                      | 31713.5864     |                   |            |
+| collateral ratio (CR = sTFT/tfru) | 994.78         | min collateral amount (MCA)                     | 31713.5864     |                   |            |
 
 In this example, each farming unit (fru) would need around 995 TFT staked. If a farmer doesn't want to put staking as collateral, the TFT farmed is locked until it achieves the minimum staking as collateral amount, or until the 3Node farms 2 years or until the 3Node has 30% utilization for a given period of time.
 
