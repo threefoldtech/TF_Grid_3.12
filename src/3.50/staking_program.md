@@ -52,7 +52,7 @@ Here is a staking program proposition for the TFGrid 3.50.
 
 * Farm operators
   * farmers offer 3Nodes resources on the TFGrid
-    * compute, storage, network units to the ThreeFold Grid
+    * compute, storage, network units to the grid
 
 ## Rewards
 
@@ -68,7 +68,7 @@ The are two main type of rewards on the TFGrid.
 Staking is an important part of the overall ThreeFold ecosystem for the following reasons:
 
 * Farming nodes provide the basic resources on the grid
-  * 3Nodes offering compute, storage and network units managed by farmers (farm operator)
+  * 3Nodes offering compute, storage and network units managed by farmers (farm operators)
 * Validator nodes secure the transaction on the grid 
   * Validator workloads deployed on TFGrid managed by validators
 * Staking enables voting power in the TF DAO to improve and manage the grid
@@ -76,17 +76,19 @@ Staking is an important part of the overall ThreeFold ecosystem for the followin
 
 ## Staking Principles
 
-The Staking program consists of 200,000,000 TFT being used in Proof-of-stake to validate transactions on the tfgrid. 100,000,000 comes from validator staking and 100,000,000 comes from the staking pool. 
+The Staking program consists of 200,000,000 TFT being used in Proof-of-stake to validate transactions on the TFGrid. 100,000,000 comes from validator staking and 100,000,000 comes from the staking pool. 
 
 The staking pool contributes equally to validator staking and is distributed equally to each validator node based proportionally on validator staking TFT amount. The staking pool consists of 50,000,000 TFT staked from farm staking/node collateral and 50,000,000 TFT staked from delegator staking.
 
 ## Staking Rewards Distribution
 
-Staking rewards consistutes the 20% of Proof-of-utilization revenues from the TF Grid. Staking rewards are proportional to the amount of TFT staked. They follow the rules:
+Staking rewards consistutes the 20% of Proof-of-utilization revenues from the TFGrid. Staking rewards are proportional to the amount of TFT staked. They follow the rules:
 
 * 2% goes to validator staking
 * 2% goes to farm staking
 * 16% goes to all stakers (validators, farmers and delegators)
+
+We note that before the staking pool reaches 100 millions TFT, the validators will earn most of the 16% PoU revenues (proportional to TFT staked). This compensates for the delay in validator staking.
 
 ## Attributes of Stakers
 
@@ -135,35 +137,38 @@ We first define some terms:
 
 * Total stakers = farm operators + validator operators + non-operators stakers
 
-* individual staked ratio = TFT staked per individual staker / TFT staked total  
+* Individual staked ratio = TFT staked per individual staker / TFT staked in total  
 
 We propose the following staking rewards distribution:
 
 * Rewards distribution per staker types
   * Validator operators
     * Validator staking rewards
-      * individual staked ratio * 2% * PoU rewards
+      * individual staked ratio * 2% * PoU revenues
     * Delegated Staking rewards
-      * individual staked ratio * 16% * PoU rewards
+      * individual staked ratio * 16% * PoU revenues
   * Farm operators
     * Farmer staking rewards
-      * individual staked ratio * 2% * PoU rewards
+      * individual staked ratio * 2% * PoU revenues
     * Delegated Staking rewards
-      * individual staked ratio * 16% * PoU rewards
+      * individual staked ratio * 16% * PoU revenues
   * Non-operator stakers
     * Delegated Staking rewards
-      * individual staked ratio * 16% * PoU rewards
+      * individual staked ratio * 16% * PoU revenues
 
 ## Voting Power
 
-* The three types of stakers (validators, farmers and delegators) get vote power on the TFChain DAO in relation to the weight of the amount of staked tokens.
+* The three types of stakers (validators, farmers and delegators) get voting power on the TFChain DAO based on the amount of staked tokens
+* Since 50% of the TFT staked is within the validator staking and 50% of the TFT staked is within the staking pool staking (farmer staking and delegator staking)
+  * The staking program provides a balance between the validator staking and staking pool staking
 
 ## Slashing
 
-* A form of punishment (e.g. validator-only slashing) will be implemented in the cases where the validators misbehaves. The incites validators to be constantly effective and will allow stakers to support trusted parties (e.g. validators with few or no failures)
-  * Potential slashing events:
-    * Failure to participate promptly in minting.
-    * Normal PoS slashing events.
+* A form of punishment (i.e. validator-only slashing) will be implemented in the cases where the validators misbehaves. 
+* The incites validators to be constantly effective and will allow stakers to support trusted parties (e.g. validators with few or no failures)
+* Potential slashing events:
+  * Failure to participate promptly in minting.
+  * Normal PoS slashing events.
 
 ## Node Collateral Program: Concept and Examples
 
@@ -175,22 +180,24 @@ To farm TFT, a farmer connects a 3Node to the ThreeFold Grid. Each 3Node needs c
 
 To efficiently and quickly discuss the node collateral program, we define some terms.
 
-* Minimum collateral amount (MCA) = collateral ratio * farming unit (per node)
-* Collateral ratio (CR) = TFT to staked / farming unit (per node)
-* Server farming unit (sfru) =  \# farming unit per node
 * Resource units
   * compute unit (cru) = vcores
   * memory unit(mru) = GB of RAM
   * storage unit (sru) = GB of SSD or HDD
   * farming unit (fru) = min(cru,mru/8,sru/100)
+* Total TFT to stake (sTFT)
+* Total farming units on the grid (tfru)
+* Collateral ratio (CR) = sTFT / tfru
+* Server farming unit (sfru) =  total farming units of one node
+* Minimum collateral amount (MCA) = CR * sfru
 
 ### Node Collateral Calculations
 
 In this model, there is a total of 50 millions TFT staked as node collaterals.
 
-Let us call farming unit (fru) the mininum of the ratio 8GB of RAM/1 vcore/100 GB of SSD.
+We show a simple example with 50 millions TFT and a typical server of 32 vcores, 256 GB of RAM and 4 TB of SSD. This server has thus 32 farming units (sfru).
 
-We show a simple example with 50 millions TFT and a typical server of 32 vcores, 256 GB of RAM and 4 TB of SSD.
+The collateral ratio is obtained by dividing the total TFT to stake by the total farming units on the grid currently.
 
 | **Whole Network**                                       | **Quantities** | **Typical Server (TS)**                    | **Quantities** |
 | ------------------------------------------------------- | -------------- | ------------------------------------------ | -------------- |
@@ -201,16 +208,16 @@ We show a simple example with 50 millions TFT and a typical server of 32 vcores,
 | total fru (tfru) = min(cru,mru/8,sru/100)               | 50262.5        | server fru (sfru) = min(cru,mru/8,sru/100) | 31.88          |
 | collateral ratio (CR) (Staking TFT per fru (sTFT/tfru)) | 994.78         | min collateral amount                      | 31713.5864     |                   |            |
 
-In this example, each farming unit (fru) would need around 995 TFT staked. If a farmer doesn't want to put staking as collateral, the TFT farmed is locked until it achieves the minimum staking as collateral amount, or until the 3Node farms 2 years or until 30% utilization for a given period of time.
+In this example, each farming unit (fru) would need around 995 TFT staked. If a farmer doesn't want to put staking as collateral, the TFT farmed is locked until it achieves the minimum staking as collateral amount, or until the 3Node farms 2 years or until the 3Node has 30% utilization for a given period of time.
 
 | TS Parameters             | Quantities |
 | ------------------------- | ---------- |
 | TS monthly farming rewards (mfr)     | 1912.5     |
-| TS Minimum Collateral amount (CR*sfru)      | 31708.53   |
+| TS minimum collateral amount (CR*sfru)      | 31708.53   |
 | Staking ROI (SROI = MCA/mfr) | 16.58      |
 
 With the above example, the TFT to stake as collateral for the proposed typical server would be around 32,000 TFT. The staking return on investment (SROI) would be around 17 months. So for example, if the farmer doesn't provide collateral at the start, it will take 17 months to the 3Node to generate the minimum collateral amount.
 
 ## Questions and Feedback
 
-We do welcome greatly feedback on this proposition. It is not an official ThreeFold position, but an invitation to discuss parameters and concepts for the future 3.50 TFGrid release.
+We do welcome greatly feedback on this proposition. It is not an official ThreeFold position, but an invitation to discuss parameters and concepts for the future 3.50 TFGrid release and the associated staking program.
