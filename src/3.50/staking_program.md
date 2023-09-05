@@ -215,7 +215,7 @@ To efficiently and quickly discuss the node collateral program, we define some t
 * Collateral ratio (cr) = sTFT / tfru
 * Server farming unit (sfru) =  total farming units of one node
 * Minimum collateral amount (mca) = cr * sfru
-* Staking return on investment (sROI)
+* Staking average percentage return (sAPR)
 
 ### Node Collateral Calculations
 
@@ -240,9 +240,9 @@ In this example, each farming unit (fru) would need around 995 TFT staked. If a 
 | ------------------------------------------- | ---------- |
 | TS monthly farming rewards (mfr)            | 1912.5     |
 | TS minimum collateral amount (mca=cr\*sfru) | 31832.9    |
-| Staking ROI (sROI = mca/mfr)                | 16.6       |
+| Staking APR (sAPR = mca/mfr)                | 16.6       |
 
-With the above example, the TFT to stake as collateral for the proposed typical server would be around 32,000 TFT. The staking return on investment (sROI) would be around 17 months. So for example, if the farmer doesn't provide collateral at the start, it will take 17 months to the 3Node to generate the minimum collateral amount.
+With the above example, the TFT to stake as collateral for the proposed typical server would be around 32,000 TFT. The staking return on investment (APR) would be around 17 months. So for example, if the farmer doesn't provide collateral at the start, it will take 17 months to the 3Node to generate the minimum collateral amount.
 
 ## Rewards Distribution Examples
 
@@ -250,7 +250,7 @@ We present here some simulators on validator staking.
 
 ### Remark on Staking and Grid Revenues
 
-As we will see with the following examples, staking ROI increases as the TFGrid utilization revenues increase. This is by design with the staking program.
+As we will see with the following examples, staking APR increases as the TFGrid utilization revenues increase. This is by design with the staking program.
 
 The whole idea behind this is that every staker in the TF Ecosystem will benefit when utilization increases on the TFGrid. This will have the effect of uniting every ThreeFolders with the common goal of expanding the TFGrid in utilization.
 
@@ -268,7 +268,7 @@ The whole idea behind this is that every staker in the TF Ecosystem will benefit
 | Monthly rewards all stakers   | 1969.23    | 3938.46    | 3938.46    | 7876.92    |
 | Total monthly rewards         | 2461.54    | 4430.77    | 4923.08    | 8861.54    |
 | Total yearly rewards          | 29538.46   | 53169.23   | 59076.92   | 106338.46  |
-| Staking yearly ROI in TFT (%) | 1.48       | 2.66       | 2.95       | 5.32       |
+| Staking yearly APR in TFT (%) | 1.48       | 2.66       | 2.95       | 5.32       |
 
 ### Farmer Staking
 
@@ -284,7 +284,7 @@ The whole idea behind this is that every staker in the TF Ecosystem will benefit
 | Monthly rewards (from the 16%) | 31.34      | 62.69      |
 | Total monthly rewards          | 47.01      | 94.03      |
 | Total yearly rewards           | 564.18     | 1128.35    |
-| Staking yearly ROI in TFT (%)  | 1.77231    | 3.54462    |
+| Staking yearly APR in TFT (%)  | 1.77231    | 3.54462    |
 
 ### Delegator Staking
 
@@ -296,7 +296,7 @@ The whole idea behind this is that every staker in the TF Ecosystem will benefit
 | Grid monthly revenues (TFT)    | 1230769.23 | 2461538.46 |
 | Monthly rewards (from the 16%) | 49.23      | 98.46      |
 | Total yearly rewards           | 590.77     | 1181.54    |
-| Staking yearly ROI in TFT (%)  | 1.18154    | 2.36308    |
+| Staking yearly APR in TFT (%)  | 1.18154    | 2.36308    |
 
 ## Questions and Feedback
 
