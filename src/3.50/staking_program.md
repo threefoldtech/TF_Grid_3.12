@@ -239,7 +239,9 @@ The whole idea behind this is that every staker in the TF Ecosystem will benefit
 
 ### Validators with 200,000,000 TFT Staked in Total
 
-Table 1 and 2 consider 200,000,000 TFT staked. For the first table, we use a monthly revenues of 8,000$USD for the TFGrid.
+Table 1 and 2 consider 200,000,000 TFT staked. 
+
+For Table 1, we use a monthly revenues of 8,000$USD for the TFGrid.
 
 | Table 1. Validator staking & staking pool |            |
 | --------------------------------------------------- | ---------- |
@@ -253,7 +255,7 @@ Table 1 and 2 consider 200,000,000 TFT staked. For the first table, we use a mon
 | Total yearly rewards                                | 26584.62   |
 | Staking yearly ROI in TFT (%)                                 | 1.33       |
 
-For the second table, we use a monthly revenues of 16,000$USD for the TFGrid.
+For Table 2, we use a monthly revenues of 16,000$USD for the TFGrid.
 
 | Table 2. Validator staking       |            |
 | ------------------------------ | ---------- |
@@ -271,7 +273,7 @@ For the second table, we use a monthly revenues of 16,000$USD for the TFGrid.
 
 Table 3 and 4 consider 100,000,000 TFT staked. This would be the case when we implement validator staking before implement the staking pool.
 
-For the third table, we use a monthly revenues of 8,000$USD for the TFGrid.
+For Table 3, we use a monthly revenues of 8,000$USD for the TFGrid.
 
 | Table 3. Validator staking & staking pool|            |
 | --------------------------------------------------- | ---------- |
@@ -285,7 +287,7 @@ For the third table, we use a monthly revenues of 8,000$USD for the TFGrid.
 | Total yearly rewards                                | 53169.23   |
 | Staking yearly ROI in TFT (%)                                   | 2.66       |
 
-For the fourth table, we use a monthly revenues of 16,000$USD for the TFGrid.
+For Table 4, we use a monthly revenues of 16,000$USD for the TFGrid.
 
 | Table 4. Validator staking only         |            |
 | ------------------------------ | ---------- |
@@ -303,7 +305,7 @@ For the fourth table, we use a monthly revenues of 16,000$USD for the TFGrid.
 
 We now take a look at farmer staking rewards. Table 5 and 6 consider 200,000,000 TFT staked. We take the example of a farmer that has one 3Node with the specs seen in the section [Node Collateral Calculations](#node-collateral-calculations).
 
-With Table 5, we use a monthly revenues of 8,000$USD for the TFGrid.
+For Table 5, we use a monthly revenues of 8,000$USD for the TFGrid.
 
 | Table 5. Farmer staking          |            |
 | ------------------------------ | ---------- |
@@ -317,7 +319,7 @@ With Table 5, we use a monthly revenues of 8,000$USD for the TFGrid.
 | Total yearly rewards           | 423.13     |
 | Staking yearly ROI in TFT (%)  | 1.32923    |
 
-With Table 6, we use a monthly revenues of 16,000$USD for the TFGrid.
+For Table 6, we use a monthly revenues of 16,000$USD for the TFGrid.
 
 | Table 6. Farmer staking          |            |
 | ------------------------------ | ---------- |
