@@ -20,10 +20,10 @@
   - [Node Collateral Calculations](#node-collateral-calculations)
 - [Rewards Distribution Examples](#rewards-distribution-examples)
   - [Remark on Staking and Grid Revenues](#remark-on-staking-and-grid-revenues)
-  - [Validators with 200,000,000 TFT Staked in Total](#validators-with-200000000-tft-staked-in-total)
-  - [Validators with 100,000,000 TFT Staked in Total](#validators-with-100000000-tft-staked-in-total)
-  - [Farmers with 200,000,000 TFT Staked in Total](#farmers-with-200000000-tft-staked-in-total)
-  - [Delegator with 200,000,000 TFT Staked in Total](#delegator-with-200000000-tft-staked-in-total)
+  - [Validator Staking with 200,000,000 TFT Staked in Total](#validator-staking-with-200000000-tft-staked-in-total)
+  - [Validator Staking with 100,000,000 TFT Staked in Total](#validator-staking-with-100000000-tft-staked-in-total)
+  - [Farmer Staking with 200,000,000 TFT Staked in Total](#farmer-staking-with-200000000-tft-staked-in-total)
+  - [Delegator Staking with 200,000,000 TFT Staked in Total](#delegator-staking-with-200000000-tft-staked-in-total)
 - [Questions and Feedback](#questions-and-feedback)
 
 ***
@@ -237,7 +237,7 @@ As we will see with the following examples, staking ROI increases as the TFGrid 
 
 The whole idea behind this is that every staker in the TF Ecosystem will benefit when utilization increases on the TFGrid. This will have the effect of uniting every ThreeFolders with the common goal of expanding the TFGrid in utilization.
 
-### Validators with 200,000,000 TFT Staked in Total
+### Validator Staking with 200,000,000 TFT Staked in Total
 
 Table 1 and 2 consider 200,000,000 TFT staked. 
 
@@ -269,7 +269,7 @@ For Table 2, we use a monthly revenues of 16,000$USD for the TFGrid.
 | Total yearly rewards           | 53169.23   |
 | Staking yearly ROI in TFT (%)              | 2.66       |
 
-### Validators with 100,000,000 TFT Staked in Total
+### Validator Staking with 100,000,000 TFT Staked in Total
 
 Table 3 and 4 consider 100,000,000 TFT staked. This would be the case when we implement validator staking before implement the staking pool.
 
@@ -301,7 +301,7 @@ For Table 4, we use a monthly revenues of 16,000$USD for the TFGrid.
 | Total yearly rewards           | 106338.46  |
 | Staking yearly ROI in TFT (%)              | 5.32       |
 
-### Farmers with 200,000,000 TFT Staked in Total
+### Farmer Staking with 200,000,000 TFT Staked in Total
 
 We now take a look at farmer staking rewards. Table 5 and 6 consider 200,000,000 TFT staked. We take the example of a farmer that has one 3Node with the specs seen in the section [Node Collateral Calculations](#node-collateral-calculations).
 
@@ -333,7 +333,7 @@ For Table 6, we use a monthly revenues of 16,000$USD for the TFGrid.
 | Total yearly rewards           | 846.26     |
 | Staking yearly ROI in TFT (%)  | 2.65846    |
 
-### Delegator with 200,000,000 TFT Staked in Total
+### Delegator Staking with 200,000,000 TFT Staked in Total
 
 We now take a look at delegator staking rewards. Table 7 and 8 consider 200,000,000 TFT staked. We take the example of a delegator that staked 50,000 TFT.
 
