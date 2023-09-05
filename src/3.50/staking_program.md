@@ -337,7 +337,7 @@ For Table 6, we use a monthly revenues of 16,000$USD for the TFGrid.
 
 We now take a look at delegator staking rewards. Table 7 and 8 consider 200,000,000 TFT staked. We take the example of a delegator that staked 50,000 TFT.
 
-With Table 7, we use a monthly revenues of 8,000$USD for the TFGrid.
+For Table 7, we use a monthly revenues of 8,000$USD for the TFGrid.
 
 | Table 7. Delegator staking     |            |
 | ------------------------------ | ---------- |
@@ -349,7 +349,7 @@ With Table 7, we use a monthly revenues of 8,000$USD for the TFGrid.
 | Total yearly rewards           | 590.77     |
 | Staking yearly ROI in TFT (%)  | 1.18154    |
 
-With Table 8, we use a monthly revenues of 8,000$USD for the TFGrid.
+For Table 8, we use a monthly revenues of 8,000$USD for the TFGrid.
 
 | Table 8. Delegator staking     |            |
 | ------------------------------ | ---------- |
