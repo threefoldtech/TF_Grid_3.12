@@ -257,46 +257,52 @@ The whole idea behind this is that every staker in the TF Ecosystem will benefit
 
 ### Validator Staking
 
-| Table 1: Validator staking    |            |            |            |            |
-| ----------------------------- | ---------- | ---------- | ---------- | ---------- |
-| TFT Staked Validators         | 100000000  | 100000000  | 100000000  | 100000000  |
-| TFT Staked Staking Pool       | 100000000  | 0          | 100000000  | 0          |
-| Total TFT staked (stft)       | 200000000  | 100000000  | 200000000  | 100000000  |
-| Individual TFT staked (itft)  | 2000000    | 2000000    | 2000000    | 2000000    |
-| Grid monthly revenues (USD)   | 8000       | 8000       | 16000      | 16000      |
-| Grid monthly revenues (TFT)   | 1230769.23 | 1230769.23 | 2461538.46 | 2461538.46 |
-| Monthly rewards validators    | 492.31     | 492.31     | 984.62     | 984.62     |
-| Monthly rewards all stakers   | 1969.23    | 3938.46    | 3938.46    | 7876.92    |
-| Total monthly rewards         | 2461.54    | 4430.77    | 4923.08    | 8861.54    |
-| Total yearly rewards          | 29538.46   | 53169.23   | 59076.92   | 106338.46  |
-| Staking yearly APR in TFT (%) | 1.48       | 2.66       | 2.95       | 5.32       |
+**Table 1: Validator Staking**
+
+| Parameters                      | 8K Grid Revenues, 200M Staked | 8K Grid Revenues, 100M Staked | 16K Grid Revenues, 200M Staked | 16K Grid Revenues, 100M Staked |
+| ------------------------------- | ----------------------------- | ----------------------------- | ------------------------------ | ------------------------------ |
+| TFT Staked Validators           | 100000000                     | 100000000                     | 100000000                      | 100000000                      |
+| TFT Staked Staking Pool         | 100000000                     | 0                             | 100000000                      | 0                              |
+| Total TFT staked (stft)         | 200000000                     | 100000000                     | 200000000                      | 100000000                      |
+| Individual TFT staked (itft)    | 2000000                       | 2000000                       | 2000000                        | 2000000                        |
+| Grid monthly revenues in USD    | 8000                          | 8000                          | 16000                          | 16000                          |
+| Grid monthly revenues in TFT    | 1230769.23                    | 1230769.23                    | 2461538.46                     | 2461538.46                     |
+| TFT Monthly rewards validators  | 492.31                        | 492.31                        | 984.62                         | 984.62                         |
+| TFT Monthly rewards all stakers | 1969.23                       | 3938.46                       | 3938.46                        | 7876.92                        |
+| TFT Total monthly rewards       | 2461.54                       | 4430.77                       | 4923.08                        | 8861.54                        |
+| TFT Total yearly rewards        | 29538.46                      | 53169.23                      | 59076.92                       | 106338.46                      |
+| Staking yearly APR in TFT (%)   | 1.48                          | 2.66                          | 2.95                           | 5.32                           |
 
 ### Farmer Staking
 
-| Table 2: Farmer staking        |            |            |
+**Table 2: Farmer Staking**
+
+| Parameters        |  8K Grid Revenues         |     16K Grid Revenues      |
 | ------------------------------ | ---------- | ---------- |
 | TFT Staked Farmers             | 50000000   | 50000000   |
 | TFT Staked Staking Pool        | 100000000  | 100000000  |
 | Total TFT staked (stft)        | 200000000  | 200000000  |
 | Individual TFT staked (itft)   | 31832.9    | 31832.9    |
-| Grid monthly revenues (USD)    | 8000       | 16000      |
-| Grid monthly revenues (TFT)    | 1230769.23 | 2461538.46 |
-| Monthly rewards (from the 2%)  | 15.67      | 31.34      |
-| Monthly rewards (from the 16%) | 31.34      | 62.69      |
-| Total monthly rewards          | 47.01      | 94.03      |
-| Total yearly rewards           | 564.18     | 1128.35    |
+| Grid monthly revenues in USD    | 8000       | 16000      |
+| Grid monthly revenues in TFT    | 1230769.23 | 2461538.46 |
+| TFT Monthly rewards farmers | 15.67      | 31.34      |
+| TFT Monthly rewards all stakers | 31.34      | 62.69      |
+| TFT Total monthly rewards          | 47.01      | 94.03      |
+| TFT Total TFTyearly rewards           | 564.18     | 1128.35    |
 | Staking yearly APR in TFT (%)  | 1.77231    | 3.54462    |
 
 ### Delegator Staking
 
-| Table 3: Delegator staking     |            |            |
+**Table 3: Delegator Staking**
+
+| Parameters     |  8K Grid Revenues            |    16K Grid Revenues          |
 | ------------------------------ | ---------- | ---------- |
 | Total TFT staked (stft)        | 200000000  | 200000000  |
 | Individual TFT staked (itft)   | 50000      | 50000      |
-| Grid monthly revenues (USD)    | 8000       | 16000      |
-| Grid monthly revenues (TFT)    | 1230769.23 | 2461538.46 |
-| Monthly rewards (from the 16%) | 49.23      | 98.46      |
-| Total yearly rewards           | 590.77     | 1181.54    |
+| Grid monthly revenues in USD    | 8000       | 16000      |
+| Grid monthly revenues in TFT   | 1230769.23 | 2461538.46 |
+| TFT Monthly rewards all stakers | 49.23      | 98.46      |
+| Total TFT yearly rewards           | 590.77     | 1181.54    |
 | Staking yearly APR in TFT (%)  | 1.18154    | 2.36308    |
 
 ## Parameters to Consider
@@ -316,7 +322,7 @@ There are currently 3 distinct prices related to TFT:
 This should be taken into account when considering the collateral ratio.
 
 At the current market price, it would cost a farmer around 210$USD to pay for the minimum collateral amount of the server stated as an example (32vcores, 256gb ram, 3.2TB SSD).
-If the price of TFT goes back to 8 cents, it would cost 3200$ of collateral for the same server. That being said, it would still be around 17 months to farm it, as the TFT farming rewards is set to 8 cents in both cases.
+If the price of TFT goes back to 8 cents, it would cost 2546$ of collateral for the same server. That being said, it would still be around 17 months to farm it, as the TFT farming rewards is set to 8 cents in both cases.
 
 We thus propose that, when the TFT market price goes beyond 8 cents, the TFDAO will vote for a new collateral ratio and a new TFT farming rewards price.
 
