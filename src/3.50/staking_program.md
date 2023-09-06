@@ -318,7 +318,7 @@ This should be taken into account when considering the collateral ratio.
 At the current market price, it would cost a farmer around 210$USD to pay for the minimum collateral amount of the server stated as an example (32vcores, 256gb ram, 3.2TB SSD).
 If the price of TFT goes back to 8 cents, it would cost 3200$ of collateral for the same server. That being said, it would still be around 17 months to farm it, as the TFT farming rewards is set to 8 cents in both cases.
 
-We thus propose that the TFDAO vote for a change in the collateral ratio when the TFT market price goes beyond 8 cents and the TFT farming rewards price of 8 cents is updated in line with Proof-of-capacity rewards.
+We thus propose that, when the TFT market price goes beyond 8 cents, the TFDAO will vote for a new collateral ratio and a new TFT farming rewards price.
 
 Until then, it will incite farmers to acquire the minimum collateral amount for their farm at a good price, while providing them PoU staking rewards and voting power to the TFDAO.
 
