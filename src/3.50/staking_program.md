@@ -23,6 +23,7 @@
   - [Validator Staking](#validator-staking)
   - [Farmer Staking](#farmer-staking)
   - [Delegator Staking](#delegator-staking)
+- [Parameters to Consider](#parameters-to-consider)
 - [Questions and Feedback](#questions-and-feedback)
 
 ***
@@ -297,6 +298,29 @@ The whole idea behind this is that every staker in the TF Ecosystem will benefit
 | Monthly rewards (from the 16%) | 49.23      | 98.46      |
 | Total yearly rewards           | 590.77     | 1181.54    |
 | Staking yearly APR in TFT (%)  | 1.18154    | 2.36308    |
+
+## Parameters to Consider
+
+There are some parameters to consider when discussing this staking program. 
+
+One important parameter is the collateral ratio. In this example, we used 995 TFT per farming unit as a collateral ratio. This number could be decided by the TFDAO based on the situation of the TFGrid, the grid utilization, the TFT price (see below) and other evolving factors.
+
+There are currently 3 distinct prices related to TFT:
+
+1. TFT market price: 0.0066$USD
+2. TFT TFChain price: 0.01$USD
+3. TFT farming rewards price: 0.08$USD
+
+(Reference: As of 06-09-23)
+
+This should be taken into account when considering the collateral ratio.
+
+At the current market price, it would cost a farmer around 210$USD to pay for the minimum collateral amount of the server stated as an example (32vcores, 256gb ram, 3.2TB SSD).
+If the price of TFT goes back to 8 cents, it would cost 3200$ of collateral for the same server. That being said, it would still be around 17 months to farm it, as the TFT farming rewards is set to 8 cents in both cases.
+
+We thus propose that the TFDAO vote for a change in the collateral ratio when the TFT market price goes beyond 8 cents and the TFT farming rewards price of 8 cents is updated in line with Proof-of-capacity rewards.
+
+Until then, it will incite farmers to acquire the minimum collateral amount for their farm at a good price, while providing them PoU staking rewards and voting power to the TFDAO.
 
 ## Questions and Feedback
 
